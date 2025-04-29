@@ -6,17 +6,14 @@
  * @returns The sum of the two numbers if add is true and false otherwise.
  */
 function sumValues(num1, num2, add) {
-
-    
     if (!add) {
-        return false:
+        return false;
     }
     if (typeof num1 !== 'number' || typeof num2 !== 'number') {
         return false;
     }
-        result = num1 + num2;
+    return num1 + num2;
 }
-
 /**
  * 
  * @param {*} prices, an array of the original price.
